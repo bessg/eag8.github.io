@@ -1,0 +1,70 @@
+body {
+    background-color: #fff;
+    color: #663300;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center text within the body */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; /* Make the buttons inline-block elements */
+}
+
+button:hover {
+    background-color: #006400;
+}
+
+h1 {
+    background-color: #008000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #663300;
+    text-align: center;
+}
+
+h3 {
+    color:#663300;
+    text-align:left;
+}
+
+ol, ul {
+    margin-left: 20px;
+    padding-left: 0; /* Remove default padding for lists */
+    list-style-position: inside; /* Center bullets and numbers with text */
+}
+
+dl {
+    margin-left: 0; /* Remove left margin to decenter the definition list */
+    text-align: left; /* Align text in the definition list to the left */
+}
+img {
+    max-width: 700px; /* Set a maximum width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
